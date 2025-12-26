@@ -93,8 +93,9 @@ def logout():
 # -------------------------
 if __name__ == "__main__":
     print("SERVER STARTED — SEQUENCE-AWARE MULTI-USER MODE 🚀")
-     port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
+
 
 
 
